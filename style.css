@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frontespizio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 0;
+}
+.logo{
+    margin-right: 10px;
+    align-self: flex-start;
+}
+.titoloPagina{
+    color:#A68933;
+    margin-left: 125pt;
+    margin-right: 125pt;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0pt;
+}
+.menu {
+    list-style: none;
+    padding: 5pt;
+    text-align: center;
+    background-color: rgba(242, 203, 87,0.75);
+    border-radius: 10pt;
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
+.menu li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #bacd28;
+    border-radius: 5px;
+}
+.testoNascosto {
+    display: none;
+    text-align: center;
+    background-color: rgba(236, 236, 236, 0.5);
+    text-align: justify;
+    font-size: 15pt;
+    margin-left: 50pt;
+    margin-right: 50pt;
+    border-radius: 20pt;
+    overflow: hidden;
+    padding: 20pt;
+}
+.menu li:hover{
+    background-color: greenyellow;
+}
+.intro{
+    font-size: 20pt;
+    margin-left: 50pt;
+    margin-right: 50pt;
+    text-align: justify;
+    background-color: rgba(236, 236, 236, 0.5);
+    border-radius: 20pt;
+    overflow: hidden;
+    padding: 20pt;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f2cb57;
+    color: #333;
+}
