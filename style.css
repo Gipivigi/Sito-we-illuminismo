@@ -65,11 +65,23 @@
     overflow: hidden;
     padding: 20pt;
 }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    background-color: #333;
+    color: white;
     text-align: center;
-    background-color: #f2cb57;
-    color: #333;
+    padding: 10px;
+    margin-top: auto; /* Imposta il margine superiore a "auto" per spingere il footer verso il basso */
 }
