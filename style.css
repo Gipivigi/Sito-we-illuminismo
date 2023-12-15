@@ -99,6 +99,13 @@ footer {
 
 @media screen and (max-width:600px)
 {
+    .btn-menu{
+        display: block;
+        float:right;
+        text-decoration:none;
+        color: white; 
+    }
+
     #navbar{
         display:none;
     }
@@ -107,11 +114,5 @@ footer {
         display: block;
     }
 
-    .btn-menu{
-        float:right;
-        text-decoration:none;
-        color: white; 
-        display: block;
-        
-    }
+    
 }
