@@ -1,45 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    margin:0;
 }
 
-.frontespizio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
-    margin: 0;
-}
-.logo{
-    margin-right: 10px;
-    align-self: flex-start;
-}
-.titoloPagina{
-    color:#A68933;
-    margin-left: 125pt;
-    margin-right: 125pt;
+
+.title{
+    padding:10px;
+    background-color: #2c2c2c;
+    color: #f2df9a;
+    font-size: 23pt;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 0pt;
 }
-.menu {
-    list-style: none;
-    padding: 5pt;
+nav{
+    background-color: #4d4c4c;
+    color:white;
+}
+
+nav ul{
     text-align: center;
-    background-color: rgba(242, 203, 87,0.75);
-    border-radius: 10pt;
-    margin-left: 50pt;
-    margin-right: 50pt;
+    list-style-type:none;
+    margin:0;
+    padding:0;
 }
-.menu li {
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+nav li a:hover{
+    color: #f5da78;
+    background-color: #646464;
+}
+
+nav li{
     display: inline-block;
-    margin: 10px;
-    cursor: pointer;
-    padding: 5px 10px;
-    background-color: #bacd28;
-    border-radius: 5px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
+
+
 .testoNascosto {
     display: none;
     text-align: center;
@@ -85,3 +86,4 @@ footer {
     padding: 10px;
     margin-top: auto; /* Imposta il margine superiore a "auto" per spingere il footer verso il basso */
 }
+
