@@ -4,12 +4,23 @@ body{
 
 
 .title{
+    margin:0;
+    float:center;
     padding:10px;
     background-color: #2c2c2c;
     color: #f2df9a;
     font-size: 23pt;
     text-align: center;
 }
+
+.btn-menu{
+    display: none;
+}
+
+#navbar{
+    display:block;
+}
+
 nav{
     background-color: #4d4c4c;
     color:white;
@@ -87,3 +98,21 @@ footer {
     margin-top: auto; /* Imposta il margine superiore a "auto" per spingere il footer verso il basso */
 }
 
+@media screen and (max-width:600px)
+{
+    #navbar{
+        display:none;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    .btn-menu{
+        float:right;
+        text-decoration:none;
+        color: white; 
+        display: block;
+        
+    }
+}
