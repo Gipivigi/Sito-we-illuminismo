@@ -16,8 +16,10 @@ function mostraTesto(id) {
         testoDaMostrare.style.display = 'block';
         intro.style.display = 'none';  // Scompare l'introduzione
         ultimoTestoMostrato = testoDaMostrare;
+        hideNavbar(); // Nascondi il navbar dopo aver mostrato il testo
     }
 }
+
 
 var menuItems = document.querySelectorAll('.menu li');
 menuItems.forEach(function (item) {
@@ -27,13 +29,21 @@ menuItems.forEach(function (item) {
     });
 });
 
-function toggle(){
-    if(document.getElementById("navbar").style.display=="none")
-    {
-        document.getElementById("navbar").style.display="block";
+function hideNavbar() {
+    if (window.innerWidth <= 600) {
+        document.getElementById("navbar").style.display = "none";
     }
-    else
-    {
-        document.getElementById("navbar").style.display="none";
-    }
+}
+
+
+function toggle()
+{
+        if(document.getElementById("navbar").style.display=="none")
+        {
+            document.getElementById("navbar").style.display="block";
+        }
+        else
+        {
+            document.getElementById("navbar").style.display="none";
+        }
 }
