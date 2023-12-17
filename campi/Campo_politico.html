@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="google-site-verification" content="x0J5U9sh1LsjHv4PkG_PP0GYNmoZNu_ZeVrsm4IYnfc" />
+        <meta name="keywords" content="illuminismo, lavoro su illuminismo, interrogazione illuminismo">
+        <meta name="description" content="Questo sito web contiene informazioni generali sull'Illuminismo">
+        <meta name="author" content="realizzato da Nardella e Vigilante">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>L'illuminismo</title>
+        <link rel="icon" type="image/x-icon" href="../immages/Icona_sito.png">
+        <link rel="stylesheet" href="../style.css">
+        <!-- Aggiungi il font "EB Garamond" -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap">
+        
+    </head>
+    <body>
+        <div id="header-wrapper">
+            <div class="title">
+                <a class="titlen" href="../index.html">L'ILLUMINISMO</a>
+                <a href="javascript:void(0)" class="btn-menu" onClick="toggle()">&#9776</a>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li ><a href="../index.html">Home</a></li>
+                    <li ><a href="Campo_politico.html" style="color: #f5da78;">Campo Politico</a></li>
+                    <li><a href="Campo_Religioso.html">Campo Religioso</a></li>
+                    <li><a href="Campo_giuridico.html">Campo Giuridico</a></li>
+                    <li><a href="Campo_culturale.html">Campo Culturale</a></li>
+                    <li><a href="Campo_economico.html">Campo Economico</a></li>
+                    <li><a href="Campo_sociale.html">Campo Sociale</a></li>
+                    <li ><a href="Conclusioni.html">Conclusioni</a></li>
+                </ul> 
+            </nav>
+        </div>
+        <br><br><br>
+
+        <div id="testo1" class="testoNascosto">
+            <div style="text-align: center;">
+                <img src="../immages/campo politico.png" alt="Voltaire Montesquieu Rousseau">
+                <p style="font-size: 12px; margin-top: 5px;">Voltaire, Montesquieu, Rousseau</p>
+            </div>
+            <b>Voltaire:</b><br>
+            • Sostenitore del costituzionalismo, afferma che il potere deve rispettare la libertà dei cittadini attraverso
+            la divisione dei poteri.<br>
+            • Propone il dispotismo illuminato, in cui l'Assolutismo è governato attraverso la ragione. Per evitare la
+            mancanza di fiducia popolare, auspica che il sovrano assoluto sia circondato da filosofi illuministi.<br><br>
+            <b>Montesquieu:</b><br>
+            • Contrastando Voltaire, Montesquieu propone la divisione dei tre poteri (legislativo, esecutivo e
+            giudiziario) tra diversi organi, evitando che siano concentrati in un unico soggetto.<br>
+            • Identifica diverse forme di governo: dispotismo (senza leggi), repubblica (dove il bene comune prevale
+            sugli egoismi), monarchia (governo di una sola persona).<br>
+            • Suggerisce di approfondire il contesto climatico per comprendere meglio le differenze tra paesi caldi e
+            freddi.<br><br>
+            <b>Rousseau:</b><br>
+            • Contrariamente agli altri illuministi, Rousseau critica il progresso come simbolo di corruzione morale.<br>
+            • Propugna l'uniformità tra ricchi e poveri, considerando la proprietà privata come fonte di
+            disuguaglianza e ingiustizia sociale.<br>
+            • L'uomo è infelice lontano dallo stato di natura. Propone la difficile realizzazione della democrazia
+            diretta, in cui ogni cittadino partecipa attivamente alla politica, basata sul contrattualismo.<br>
+            • Critica gli stati totalitari, in cui un sovrano vota leggi e il popolo le rispetta, definendolo inaccettabile
+            per il rischio che il popolo sia sopraffatto dalla volontà di una sola persona (il sovrano).<br>
+        </div>
+
+
+
+        <footer>
+            IT Luigi Di Maggio A.S. 2023/24<br>
+            Crediti:<br>
+            Nardella Antonio<br>
+            Vigilante Giacomo Pio<br>
+        </footer>
+
+        <script src="../script.js"></script>
+        <script>
+            window.addEventListener('resize', function () {
+                if (window.innerWidth <= 600) {
+                    document.getElementById("navbar").style.display = "none";
+                } else {
+                    document.getElementById("navbar").style.display = "block";
+                }
+            });
+        </script>
+    </body>
+</html>

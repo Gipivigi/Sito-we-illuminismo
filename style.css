@@ -1,7 +1,38 @@
 body{
-    margin:0;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image:URL(immages/background.png);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
+
+.titlen{
+    text-decoration: none;
+    color: #f2df9a;
+}
+
+.titolo-intro{
+    padding: 0;
+    margin:0;
+    font-size: 35pt;
+    font-style: italic;
+    font-weight: bold;
+    color:#000000;
+}
+
+#header-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#header-wrapper + * {
+    min-height: calc(100vh - 70px); /* 70px è l'altezza della barra di navigazione */
+}
 
 .title{
     float:center;
@@ -10,6 +41,15 @@ body{
     color: #f2df9a;
     font-size: 23pt;
     text-align: center;
+}
+
+
+
+#testo0, #testo1, #testo2,#testo3,#testo4,#testo5,#testo6,#testo7{
+    padding-top: 100px; 
+    font-size: 1.4rem;
+    color:#333;
+    line-height: 1.6;
 }
 
 .btn-menu{
@@ -54,27 +94,20 @@ nav li{
 
 
 .testoNascosto {
-    display: none;
     text-align: center;
-    background-color: rgba(236, 236, 236, 0.5);
+    background-color: rgba(212, 205, 139, 0.8);
     text-align: justify;
     font-size: 15pt;
-    margin-left: 50pt;
-    margin-right: 50pt;
-    border-radius: 20pt;
+    margin:0;
     overflow: hidden;
     padding: 20pt;
 }
-.menu li:hover{
-    background-color: greenyellow;
-}
 .intro{
-    font-size: 20pt;
-    margin-left: 50pt;
-    margin-right: 50pt;
+    text-align: center;
+    background-color: rgba(212, 205, 139, 0.8);
     text-align: justify;
-    background-color: rgba(236, 236, 236, 0.5);
-    border-radius: 20pt;
+    font-size: 15pt;
+    margin:0;
     overflow: hidden;
     padding: 20pt;
 }
@@ -101,6 +134,9 @@ footer {
 
 @media screen and (max-width:600px)
 {
+    .responsive-image {
+        padding-top: 50px;
+    }
     .btn-menu{
         display: block;
         float:right;
